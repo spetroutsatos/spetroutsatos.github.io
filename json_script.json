@@ -1,0 +1,37 @@
+{
+  "exhibitions": [
+    {
+      "title": "Leonardo da Vinci Experience Museum",
+      "country": "Rome, Italy",
+      "day": "Όλο τον χρόνο",
+      "link": "https://www.leonardodavincimuseo.com/en/"
+    },
+    {
+      "title": "Leonardo da Vinci: A Life in Drawing",
+      "country": "Rome,Italy",
+      "day":"εως 6-03-2025",
+      "link":"https://www.rct.uk/collection/exhibitions/leonardo-da-vinci-a-life-in-drawing/the-queens-gallery-buckingham-palace?utm_source=chatgpt.com"
+    },
+    {
+      "title":"DA VINCI GENIUS",
+      "country":"South Florida PBS Studios, Boynton Beach",
+      "day":"μέχρι 04-2025",
+      "link":"https://www.boynton-beach.org/Calendar.aspx?EID=1656&"
+    }
+  ],
+  "closeexhibitions": [
+    {
+      "title": "LEONARDO DA VINCI: Inventor. Artist. Dreamer",
+      "country": "California Science Center, LA",
+      "day": "μέχρι 05-1-2025",
+      "link": "https://californiasciencecenter.org/press-room/pressrelease/2024-09-05/leonardo-da-vinci-exhibition-extended-to-sunday-january-5-2025"
+    }
+  ],
+  "books": [
+    {
+      "title" : "Leonardo da Vinci",
+      "abbreviation" : "Βασισμένος σε χιλιάδες σελίδες από τα εκπληκτικά σημειωματάρια του Λεονάρντο ντα Βίντσι και νέες ανακαλύψεις για τη ζωή και το έργο του, ο Walter Isaacson «αποκαλύπτει επιδέξια έναν οικείο Λεονάρντο» (San Francisco Chronicle) σε μια αφήγηση που συνδέει την τέχνη του με την επιστήμη του. Δείχνει πώς η ιδιοφυΐα του Λεονάρντο βασίστηκε σε δεξιότητες που μπορούμε να βελτιώσουμε στον εαυτό μας, όπως η παθιασμένη περιέργεια, η προσεκτική παρατήρηση και μια φαντασία τόσο παιχνιδιάρικη που φλέρταρε με τη φαντασία. Δημιούργησε τους δύο πιο διάσημους πίνακες στην ιστορία, τον Μυστικό Δείπνο και τη Μόνα Λίζα. Με ένα πάθος που μερικές φορές γινόταν εμμονή, ακολούθησε καινοτόμες μελέτες ανατομίας, απολιθωμάτων, πτηνών, καρδιάς, ιπτάμενων μηχανών, βοτανικής, γεωλογίας και όπλων. Εξερεύνησε τα μαθηματικά της οπτικής, έδειξε πώς οι ακτίνες φωτός χτυπούν τον κερατοειδή χιτώνα και παρήγαγε ψευδαισθήσεις αλλαγής προοπτικών στον Μυστικό Δείπνο. Η ικανότητά του να στέκεται στο σταυροδρόμι των ανθρωπιστικών και των επιστημών, που έγινε εμβληματική από το σχέδιό του για τον άνθρωπο του Βιτρούβιου, τον έκανε την πιο δημιουργική ιδιοφυΐα της ιστορίας",
+      "link" : "https://www.amazon.com/Leonardo-Vinci-Walter-Isaacson/dp/1501139150s"
+    }
+  ]
+}

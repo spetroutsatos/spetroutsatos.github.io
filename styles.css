@@ -1,0 +1,236 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "nav nav"
+    "aside main"
+    "footer footer";
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 300px 1fr;
+  height: 100vh;
+}
+
+header {
+  grid-area: header;
+  background-color: #f4b41a;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  grid-area: nav;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #ddd;
+  padding: 10px;
+}
+
+main {
+  grid-area: main;
+  padding: 10px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* εξορισμου κρυφο */
+.submenu{
+  display : none;
+}
+
+.submenu.active{
+  display : block;
+}
+
+aside {
+  background-color: #f4f4f4;
+  padding: 15px;
+  width: 200px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin: 10px 0;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+aside ul li a:hover {
+  color: #007bff;
+}
+
+.content {
+  display: none; 
+}
+
+.content.active {
+  display: block; 
+}
+
+#portrets-view .images {
+  display: flex; /* Flexbox για τη στοίχιση */
+  flex-wrap: wrap; /* Ενσωμάτωση σε σειρές αν δεν χωράει */
+  gap: 80px; /* Απόσταση μεταξύ των στοιχείων */
+  justify-content: left; /* Κεντρική στοίχιση */
+}
+
+.image-container {
+  display: flex; /* Flexbox για ευθυγράμμιση εικόνας και κειμένου */
+  flex-direction: column;
+  gap: 15px; /* Απόσταση μεταξύ εικόνας και κειμένου */
+  max-width: 800px; /* Περιορισμός μεγέθους */
+}
+
+.image-container img {
+  max-width: 400px; /* Πλάτος της εικόνας */
+  height: auto; /* Αυτόματο ύψος για διατήρηση αναλογιών */
+  border-radius: 8px; /* Καμπύλες γωνίες */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Σκιά */
+}
+
+.image-container img:hover{
+  transform: scale(1.7);
+}
+
+.text-content {
+  max-width: 600px; /* Περιορισμός πλάτους του κειμένου */
+}
+
+.text-content h3 {
+  margin: 0; /* Αφαίρεση περιθωρίων */
+  font-size: 2.2em; /* Μέγεθος γραμματοσειράς */
+  color: #070707; /* Χρώμα γραμματοσειράς */
+
+}
+
+.text-content p {
+  margin: 0; /* Αφαίρεση περιθωρίων */
+  font-size: 1.7em; /* Μέγεθος γραμματοσειράς */
+  color: #292828; /* Χρώμα γραμματοσειράς */
+}
+
+#landscape-painting .images {
+  display: flex; /* Flexbox για τη στοίχιση */
+  flex-wrap: wrap; /* Ενσωμάτωση σε σειρές αν δεν χωράει */
+  gap: 80px; /* Απόσταση μεταξύ των στοιχείων */
+  justify-content: left; /* Κεντρική στοίχιση */
+}
+
+.image-container1 {
+  display: flex; /* Flexbox για ευθυγράμμιση εικόνας και κειμένου */
+  flex-direction: column;
+  gap: 15px; /* Απόσταση μεταξύ εικόνας και κειμένου */
+  max-width: 800px; /* Περιορισμός μεγέθους */
+}
+
+.image-container1 img {
+  max-width: 400px; /* Πλάτος της εικόνας */
+  height: auto; /* Αυτόματο ύψος για διατήρηση αναλογιών */
+  border-radius: 8px; /* Καμπύλες γωνίες */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Σκιά */
+}
+
+.image-container1 img:hover{
+  transform: scale(1.7);
+}
+
+.text-content {
+  max-width: 600px; /* Περιορισμός πλάτους του κειμένου */
+}
+
+.text-content h3 {
+  margin: 0; /* Αφαίρεση περιθωρίων */
+  font-size: 2.2em; /* Μέγεθος γραμματοσειράς */
+  color: #070707; /* Χρώμα γραμματοσειράς */
+
+}
+
+.text-content p {
+  margin: 0; /* Αφαίρεση περιθωρίων */
+  font-size: 1.7em; /* Μέγεθος γραμματοσειράς */
+  color: #292828; /* Χρώμα γραμματοσειράς */
+}
+
+ /* Στυλ για τη φόρμα σύνδεσης */
+ .login-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: none; /* Η φόρμα ξεκινά κρυφή */
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #45a049;
+}
+
+/* Στυλ για το κουμπί που εμφανίζει τη φόρμα */
+.show-login-btn {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.show-login-btn:hover {
+  background-color: #0056b3;
+}
